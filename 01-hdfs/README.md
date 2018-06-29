@@ -99,38 +99,38 @@ comandos:
 
 * Login
 
-        ![login(ambari/Ambari-hdfs-01.png)
+![login](ambari/Ambari-hdfs-01.png)
 
-        ![login(ambari/Ambari-hdfs-02.png)
+![login](ambari/Ambari-hdfs-02.png)
 
-        ![login(ambari/Ambari-hdfs-03.png)
+![login]ambari/Ambari-hdfs-03.png)
 
 * Opciones de usuario
 
-        ![Opciones(ambari/Ambari-hdfs-04.png)
+![Opciones](ambari/Ambari-hdfs-04.png)
 
-        ![Opciones(ambari/Ambari-hdfs-05.png)
+![Opciones](ambari/Ambari-hdfs-05.png)
 
 * Listar directorio Home del usuario
 
-        ![Home(ambari/Ambari-hdfs-06.png)
+![Home](ambari/Ambari-hdfs-06.png)
 
 * Crear un directorio
 
-        ![Crear directorio(ambari/Ambari-hdfs-07.png)
+![Crear directorio](ambari/Ambari-hdfs-07.png)
 
-        ![Crear directorio(ambari/Ambari-hdfs-08.png)
+![Crear directorio](ambari/Ambari-hdfs-08.png)
 
 * Subir (upload)  un directorio
 
-        ![Subir archivo(ambari/Ambari-hdfs-09.png)
+![Subir archivo](ambari/Ambari-hdfs-09.png)
 
-        ![Subir archivo(ambari/Ambari-hdfs-10.png)
+![Subir archivo](ambari/Ambari-hdfs-10.png)
 
 * Cambiar permisos de archivo o directorio
 
-        ![Cambiar permisos(ambari/Ambari-hdfs-11.png)
+![Cambiar permisos](ambari/Ambari-hdfs-11.png)
 
 * Ver contenido de un archivo
 
-        ![Ver archivo(ambari/Ambari-hdfs-12.png)
+![Ver archivo](ambari/Ambari-hdfs-12.png)
