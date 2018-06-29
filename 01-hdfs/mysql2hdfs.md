@@ -78,4 +78,4 @@ Verifique la importación:
     $ hdfs dfs -ls /user/<username>/cursodb/employee
     $ hdfs dfs -cat /user/<username>/cursodb/employee/part-m-00000
 
-3. Realice el proceso de importación de: (A) UNA tabla especifica de 'retail_db' hacia hdfs, y (B) Todas las tablas de 'retail_db' hacia /user/<username>/retail_db
+3. Realice el proceso de importación de: (A) UNA tabla especifica de 'retail_db' hacia hdfs, y (B) Todas las tablas de 'retail_db' hacia /user/'username'/retail_db
