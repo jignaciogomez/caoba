@@ -1,0 +1,24 @@
+# carga de datos a HDFS por terminal:
+# reemplace '<username>' por el username asignado para el curso
+
+hdfs dfs -ls /
+hdfs dfs -ls /user
+hdfs dfs -ls /user/<username>
+hdfs dfs -ls /datasets
+
+hdfs dfs -mkdir /user/<username>
+hdfs dfs -mkdir /user/<username>/datasets
+
+hdfs dfs -mkdir /user/<username>/datasets/gutenberg
+
+hdfs dfs -put /datasets/gutenberg/gutenberg-small.zip /user/<username>/datasets/gutenberg/
+
+hdfs dfs -copyFromLocal /datasets/gutenberg/gutenberg-small.zip /user/<username>/datasets/gutenberg/
+hdfs dfs -ls /user/<username>/datasets
+hdfs dfs -ls /user/<username>/datasets/gutenberg
+
+hdfs dfs -get /user/<username>/gutenberg/gutenberg-small.zip ~<username>/mis_datasets/
+
+hdfs dfs -copyToLocal /user/<username>/gutenberg/gutenberg-small.zip ~<username>/mis_datasets/
+
+ls -l mis_datasets
